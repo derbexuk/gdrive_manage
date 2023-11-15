@@ -1,0 +1,21 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+#will catch cover files
+*.out 
+#vi edit backups
+*.swp 
+#ploys
+*.png
+#sqlite databases
+*.db
+#python caches
+__pycache__
+#executeables
+bin
+
+.coverage
+.env
+.venv
+#libre office
+.~lock*
+
+creds.json
